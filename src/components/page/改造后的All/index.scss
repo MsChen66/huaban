@@ -1,0 +1,102 @@
+.app-all-box{
+  .all-item{
+    
+    width:3.75rem;
+    height:.45rem;
+    font-size:.18rem;
+    line-height:.45rem;
+    position: relative;
+    i{
+        display:inline-block;  
+        position: absolute;
+        top:0.1rem;
+        right: 0.35rem;
+        font-size: 0.3rem;
+     }
+    }
+  ul{
+      overflow: hidden;
+      background: #fff;
+      li{
+          float:left;
+          width:3.75rem;
+          height:.45rem;
+          font-size:.18rem;
+          line-height:.45rem;
+          
+          a{
+            display:inline-block;  
+            width:50%;
+            height:.45rem; 
+          }
+        }
+    }
+  .mobile{
+    min-height: 58px;
+    background: #f5f5f5;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    .pin-item{
+      width: 189px;
+      margin-top: 8px;
+      .info {
+        padding: 5px 8px;
+        background: #fff;
+        .description {
+          line-height: 1.5;
+          color: #777;
+          margin-bottom: 8px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          font-size: 12px;
+        }
+      }
+      .author {
+        background: #fff;
+        border-top: 1px solid #F2F2F2;
+        position: relative;
+        color: #999;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        img.avt {
+          display: block;
+          width: 27px;
+          height: 27px;
+          position: absolute;
+          left: 8px;
+          top: 8px;
+          border-radius: 50%;
+          
+        }
+        .text {
+          padding-left: 30px;
+          .inner {
+            display: block;
+            padding: 7px 8px 8px;
+            line-height: 1.2;
+            text-decoration: none;
+            min-height: 28px;
+            word-wrap: break-word;
+            
+            .name {
+              margin-right: 2px;
+              margin-bottom: 1px;
+              vertical-align: middle;
+            }
+            a {
+              overflow: hidden;
+              text-overflow: ellipsis;
+              white-space: nowrap;
+              font-size: 10px;
+              height: 14px;
+              display: block;
+           }
+          }
+        }
+    }
+    }
+  }
+}

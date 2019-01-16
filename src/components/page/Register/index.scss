@@ -1,0 +1,47 @@
+.app-register-box{
+  padding:.2rem;
+  margin-top:.8rem;
+  .reg-form{
+    input{
+      display: block;
+      background: #fff;
+      border: .01rem solid #DDD;
+      padding: .08rem .16rem;
+      line-height: 1;
+      font-size: .16rem;
+      line-height: .16rem;
+      border-radius: .03rem;
+      box-shadow: inset 0 .01rem .02rem rgba(0,0,0,.06);
+      -webkit-appearance: none;
+      outline: 0;
+      box-sizing: border-box;
+      width: 100%;
+      height: .4rem;
+      margin: 0 0 .1rem;
+    }
+    .btn{
+      display: block;
+      font-size: .16rem;
+      height: .38rem;
+      line-height: .38rem;
+      font-weight: 300;
+      background: linear-gradient( #E53E49, #D43636);
+      box-shadow: inset 0 .01rem 0 rgba(255,255,255,.08), 0 .01rem 0 rgba(255,255,255,.3);
+      text-shadow: 0 -.01rem 0 rgba(0,0,0,.1);
+      color: #fff;
+      border: 1px solid #C90000;
+    }
+  }
+  .sign{
+    margin-top:.32rem;
+    text-align: center;
+    font-size: .16rem;
+    span{
+      color:#777;
+      margin-right:.16rem;
+    }
+    a{
+      color:#4a4a4a;
+    }
+  }
+}

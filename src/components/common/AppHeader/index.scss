@@ -1,0 +1,162 @@
+@import '../../../stylesheets/_base';
+.app-header-box{
+    .header{
+    width: 100%;
+    position: relative;
+    background: #fff;
+    width: 100%;
+    left: 0;
+    top: 0;
+    .header-logo {
+        position: relative;
+        width: 100px;
+        height: 46px;
+        .header-icon-logo {
+            display: inline-block;
+            height: 44px;
+            background-size: 75px;
+            img{
+                display: inline-block;
+                height: 25px;
+                background-size: 75px;
+                margin-top: 15%
+            }
+        }
+        .mobile-title {
+            font-size: 18px;
+            display: inline-block;
+            position: absolute;
+            white-space: nowrap;
+            width: 100px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            background: #fff;
+            left: 40px;
+            bottom: 10px;
+            text-align:left
+        }
+    }
+    .header-button{
+        display: block;
+        position: absolute;
+        right: 45px;
+        top: 2px;
+        width: 70%;
+        z-index: 9;
+        // i{
+        //     font-size: 22px;
+        //     background-size: 80px;
+        // }
+        
+        .am-search {
+            
+            background-color: #fff;
+            .am-search-cancel{
+                color: $searchColor
+            }
+          }
+    }
+    .header-button-list{
+        display: block;
+        position: absolute;
+        right: 2px;
+        top: 10px;
+        width: 44px;
+        height: 44px;
+        z-index: 9;
+        animation: myfirst 1s forwards;
+        i{
+            font-size: 22px;
+            background-size: 80px;
+        }
+    }
+
+    .header-menu{
+        position: absolute;
+        z-index: 9;
+        width: 100%;
+        .inner {
+            background: #444;
+            box-shadow: 0 0 4px rgba(0,0,0,.2);
+            .line {
+                border-bottom: 1px solid #3B3B3B;
+                position: relative;
+                height: 44px;
+                line-height: 44px;
+                font-size: 16px;
+                color: #DDD;
+                text-align: left;
+                a{
+                    color: #DDD; 
+                    padding-left: 20px; 
+                }
+                .btn {
+                    width: 90px;
+                    line-height: 36px;
+                    height: 36px;
+                    box-sizing: border-box;
+                    font-size: 16px;
+                    box-shadow: none;
+                    background: linear-gradient( #E53E49, #D43636);
+                    display: inline-block;
+                    padding: 0 12px;
+                    cursor: pointer;
+                    text-decoration: none; 
+                    text-align: center;
+                    font-weight: 700; 
+                }
+                .btn.signup-button {
+                    width: 60%;
+                    margin-right: 5%;
+                    color: #fff;
+                }
+                .btn.login-button {
+                    width: 35%;
+                    color: #444;
+                    box-shadow: none;
+                    background: linear-gradient( #FAFAFA, #F2F2F2);
+                    border: 1px solid #D9D9D9;
+                }
+                i.arrow {
+                    width: 16px;
+                    height: 16px;
+                    position: absolute;
+                    right: 10px;
+                    top: 25%;
+                    margin-top: -8px;
+                }
+                
+            }
+            .login {
+                padding: 20px;
+                height: 40px;
+                line-height: 40px;   
+            }
+            .pc-btns {
+                padding: 15px 20px;
+                line-height: 38px;
+                height: auto;
+                text-align: center;
+                a.to:first-child {
+                    margin-right: 2%;
+                }
+                a.to {
+                    display: inline-block;
+                    text-align: center;
+                    width: 40%;
+                    background: #333;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    
+}
+}
+
+@keyframes myfirst
+{
+0%   {bottom: -76px;}
+100% {bottom: 0px;}
+}
+

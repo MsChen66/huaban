@@ -1,0 +1,150 @@
+@import '../../../stylesheets/_base';
+.app-home-box{
+    background: $bgColor;
+    .recommend-line {
+        position: relative;
+        width: 100%;
+        height: 30px;
+        line-height: 30px;
+        background: #fafafa;
+        text-align: center;
+        a{
+            color: #999;
+        }
+    }
+    .recommend-info {
+        position: relative;
+        padding: 10px;
+        .category-item {
+            margin-right: .5%;
+            width: 32.8%;
+            position: relative;
+            display: inline-block;
+            height: 60px;
+            overflow: hidden;
+        }
+        .category-title {
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 60px;
+            line-height: 60px;
+            width: 100%;
+            text-align: center;
+            font-size: 16px;
+            color: #fff;
+        }
+    }
+    .recommend-items{
+        padding: 10px;
+        overflow: hidden;
+        .recommend-item {
+            
+            margin-bottom: 1%;
+            // float: left;
+            width: 100%; 
+            overflow: hidden;
+        }
+        .l-l{
+            height: 261.616px;
+            width: 261.616px;
+            margin-right: 0px;
+            position: relative; 
+            display: inline-block;
+            float: left;
+            padding: 2px 0;
+            a{
+                .recommend-bg{
+                    height: 235.72px;
+                    width: 235.72px;
+                }
+            }
+            .recommend-content {
+                height: 60px;
+                position: absolute;
+                bottom: 25px;
+                left: -20px;
+                .recommend-type,.boards{
+
+                }
+                h2{
+                    height: 36px;
+                    a {
+                        display: inline-block;
+                        margin: 14px 0 5px 45px;
+                        font-weight: 700;
+                        font-size: 18px;
+                        color: #fff;
+                        overflow: hidden;
+                        height: 20px;
+                    }
+                }
+                .recommend-data{
+                    margin-left: 45px;
+                    display: inline-block;
+                    span {
+                        margin-right: 10px;
+                        font-size: 12px;
+                        color: #fff;
+                    }
+                }
+
+            }
+        }
+        .l-s{
+            width: 129.232px;
+            margin-right: 0px;
+            display: inline-block;
+            float: left;
+            padding: 2px 0;
+            a{
+                .recommend-bg{
+                    height: 129.232px;
+                    width: 129.232px;
+                }
+            }
+            .recommend-content {
+                height: 100px;
+                position: relative;
+                padding: 10px;
+                margin-top: 1.8%;
+                background: #f5f5f5;
+                .recommend-type.boards{
+
+                }
+                h2{
+                    height: 36px;
+                    a {
+                        display: inline-block;
+                        margin-bottom: 5px;
+                        font-size: 16px;
+                        color: #444;
+                    }
+                }
+                .recommend-data{
+                    span {
+                        font-size: 12px;
+                        color: #999;
+                        margin-right: 10px;
+                    }
+                }
+
+            }
+        }
+    }
+    .get-more-line{
+        position: relative;
+        margin: 0 auto 10px;
+        height: 44px;
+        line-height: 44px;
+        background: #f4f4f4;
+        text-align: center;
+        width: 95%;
+        bottom: 10px;
+        a {
+            font-size: 18px;
+            color: #444;
+        }
+    }
+
+}
